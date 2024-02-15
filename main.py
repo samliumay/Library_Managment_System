@@ -50,7 +50,6 @@ class Library:
 # Kutphane objesini olusturduk
 lib = Library()
 
-# Sonsuz dongumuzu ve menumuzu olusturduk. 
 while True:
   print("*** MENU ***")
   print("1) List Books")
@@ -67,6 +66,6 @@ while True:
   elif choice == '3':
     lib.remove_book()
   elif choice == '4':
-    break  # Exit the loop to end the program
+    break  #Program bitisi
   else:
     print("Invalid choice. Please choose again.")
